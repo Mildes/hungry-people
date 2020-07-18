@@ -1,0 +1,16 @@
+.about {
+    min-height: 675px;
+    padding: 100px 0;
+    &_us {
+        width: 600px;
+        float: left;
+        margin-top: 117px;
+    }
+    &_img {
+        display: inline-block;
+        width: 600px;
+        margin-left: 25px;
+        margin-top: -40px;
+        height: 530px;
+    }
+}

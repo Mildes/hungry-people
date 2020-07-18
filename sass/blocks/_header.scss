@@ -1,0 +1,178 @@
+.header {
+    position: relative;
+    min-height: 800px;
+    background: url(../img/header-bg.png) center center/cover no-repeat;
+    &_menu {
+        display: none;
+    }
+    &_nav {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        &_menu {
+            display: none;
+        }
+        &_left, &_right {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 40px 35px;
+            flex-direction: row;
+            height: 100px;
+            width: 520px;
+        }
+        &_left {
+            padding-right: 70px;
+        }
+        &_right {
+            padding-left: 70px;
+        }
+        hr {
+            display: inline-block;
+            position: absolute;
+            width: 530px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 100px;
+        }
+        .hr2 {
+            right: 0;
+        }
+    }
+    &_link {
+        list-style-type: none;
+        a {
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+    &_logo {
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: 25px;
+    }
+    &_main {
+        display: flex;
+        &_left {
+            position: absolute;
+            transform: rotate(-90deg);
+            margin-top: 182px;
+            margin-left: -240px;
+            div {
+                display: block;
+                width: 698px;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 12px;
+                text-align: center;
+                color: #FFFFFF;
+                padding-bottom: 10px;
+            }
+            hr {
+                margin-top: 155px;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+        }
+        &_center {
+            display: inline-block;
+            width: 100%;
+            margin-top: 150px;
+            h1 {
+                font-family: "BannyBoldRound";
+                margin-top: 50px;
+                font-size: 96px;
+                line-height: 0px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            .hr2 {
+                margin-left: 415px;
+                margin-top: 87px;
+                position: absolute;
+                width: 450px;
+                height: 1px;
+                background: rgba(255, 255, 255, 0.2);
+                transform: rotate(-90deg);
+                border: none;
+            }
+            .hr3 {
+                margin-top: 418px;
+                margin-left: 583px;
+                width: 113px;
+            }
+            hr {
+                margin-top: 70px;
+            }
+        }
+        &_right {
+            height: 100%;
+            width: 215px;
+            position: absolute;
+            right: 0;
+            hr {
+                background:rgba(255, 255, 255, 0.2);
+                transform: rotate(-90deg);
+                width: 700px;
+                height: 1px;
+                border: none;
+                margin-top: 277px;
+                margin-left: -345px;
+            }
+        }
+        &_btns {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        &_btn {
+            width: 200px;
+            height: 60px;
+            background: #E8C300;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+            color: #fff;
+            margin-right: 40px;
+            &-2 {
+                width: 200px;
+                height: 60px;
+                border: none;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 20px;
+                text-align: center;
+                color: #fff;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                box-sizing: border-box;
+                border-radius: 5px;
+                background: rgba($color: #000000, $alpha: .0)
+            }
+            &-down {
+                border: none;
+                background: rgba($color: #000000, $alpha: .0);
+                margin-left: 50%;
+                transform: translateX(-50%);
+                margin-top: 82px;
+            }
+        }
+        &_soc {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            height: 700px;
+            margin-top: -360px;
+            &_fb, &_tw, &_ig {
+                border: none;
+                background: rgba($color: #000000, $alpha: .0);
+                margin: 10px 0;
+            }
+        }
+
+    }
+}

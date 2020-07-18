@@ -1,0 +1,43 @@
+.events {
+    position: relative;
+    height: 675px;
+    padding: 44px 0;
+    background: url(../img/private-bg.png) center center / cover no-repeat;
+    &_all {
+        display: flex;
+        margin-left: -80px;
+        &_corporate {
+            margin-left: -20px;
+        }
+        &_weddings, &_corporate {
+            z-index: 10;
+        }
+    }
+    &_contacts {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        span {
+            font-weight: bold;
+        }
+        a {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+    hr {
+        position: absolute;
+        margin: -44px 0 0 215px;
+        width: 1px;
+        height: calc(98% + 85px);
+        background-color: rgba(255, 255, 255, 0.2);
+        border: none;
+    }
+    .hr2 {
+        margin-left: 50%;
+    }
+    .hr3 {
+        right: 214px;
+    }
+}

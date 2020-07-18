@@ -1,0 +1,50 @@
+.team {
+    color: #fff;
+    min-height: 675px;
+    background: url('../img/team-bg.png') center center / cover no-repeat;
+    padding: 40px 0 100px;
+    margin: 0;
+    hr {
+        position: absolute;
+        width: 1px;
+        height: 675px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border: none;
+        z-index: 0;
+        margin: -40px;
+    }
+    .hr1 {
+        margin-left: 215px;
+    }
+    .hr2 {
+        margin-left: 50%;
+    }
+    .hr3 {
+        right: 0;
+        margin-right: 215px;
+    }
+    &_img {
+        position: relative;
+        width: 588px;
+        float: left;
+        z-index: 10;
+        margin-left: -80px;
+    }
+    &_text {
+        margin-top: 157px;
+        width: 600px;
+        position: relative;
+        float: right;
+        z-index: 10;
+        .line {
+            position: relative;
+            margin: 10px auto;
+            width: 60px;
+            height: 5px;
+            background: #E8C300;
+            border-radius: 50px;
+            border: none;
+        }
+    }
+
+}

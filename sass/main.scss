@@ -1,0 +1,61 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/font-awesome.min';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/_team';
+@import 'blocks/book';
+@import 'blocks/special';
+@import 'blocks/menu';
+@import 'blocks/events';
+@import 'blocks/galery';
+@import 'blocks/contact';
+@import 'blocks/footer';
+@import 'base/media';
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+.line {
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    border: none;
+}
+.preamble {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.title {
+    font-family: "BannyBoldRound";
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.subtitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+.descr {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+}

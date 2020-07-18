@@ -1,0 +1,487 @@
+@media (max-width: 1300px) {
+    div.container {
+        max-width: 1280px;
+        width: auto;
+    }
+    .header {
+        min-height: 700px;
+        &_nav {
+            &_left, &_right {
+                
+            }
+            &_left {
+                padding-right: 0;
+            }
+            &_right {
+                padding-left: 0;
+            }
+            hr {
+                width: 40%;
+            }
+        }
+        &_main {
+            &_center {
+                margin-top: 120px;
+                .hr2 {
+                    display: none;
+                }
+            }
+            &_left, &_right {
+                hr {
+                    display: none;
+                }
+            }
+            &_left {
+                div {
+                    padding-bottom: 74px;
+                    width: 600px;
+                }
+            }
+            &_soc {
+                height: 450px;
+                margin-top: 0;
+            }
+        }
+
+    }
+    .about {
+        min-height: 600px;
+        padding: 0;
+        padding-bottom: 30px;
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &_us {
+            margin-top: 50px;
+            width: 52%;
+            margin-left: 15px;
+        }
+        &_img {
+            position: relative;
+            overflow: hidden;
+            width: 48%;
+            margin-top: 26px;
+            margin-left: 0;
+            height: 566px;
+        }
+    }
+    .team {
+        min-height: 650px;
+        &_text {
+            width: 50%;
+            margin-right: 3%;
+            margin-left: 2%;
+        }
+        &_img {
+            width: 60%;
+            margin-left: -15%;
+            overflow: hidden;
+        }
+        hr {
+            display: none;
+        }
+    }
+    .book {
+        min-height: 600px;
+        padding-top: 60px;
+        &_left {
+            width: 50%;
+            margin-left: 2%;
+            margin-top: 65px;
+            input, select {
+                width: 47%;
+            }
+            &_btn {
+                width: 96.5%;
+            }
+        }
+        &_img {
+            margin-right: 0;
+            margin-top: -40px;
+            overflow: hidden;
+            width: 47%;
+            height: 565px;
+        }
+        &_hours {
+            margin-top: 0;
+        }
+    }
+    .special {
+        &_img {
+            overflow: hidden;
+            margin-left: -22%;
+            width: 70%;
+            height: 560px;
+        }
+        &_text {
+            width: 48%;
+            margin-right: 2%;
+        }
+        hr {
+            display: none;
+        }
+    }
+    .menu {
+        padding: 60px 0;
+        &_all {
+            padding: 0 9%;
+        }
+        &_toggle {
+            margin: 40px 0;
+        }
+        &_dish {
+            margin: 0 20px 24px;
+        }
+    }
+    .events {
+        hr {
+            display: none;
+        }
+        &_all {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            margin-left: 0;
+        }
+    }
+    .contact {
+        padding: 60px 0;
+        min-height: 600px;
+        &_form {
+            padding: 0 15px;
+            justify-content: center;
+            input {
+                width: 33%;
+                margin-left: 0.5%;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+        &_btn {
+            margin-top: 20px;
+            width: 644px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .header {
+        padding-bottom: 20px;
+        &_main {
+            &_center {
+                margin-top: 100px;
+                h1 {
+                    line-height: 1em;
+                    margin-top: 20px;
+                    font-size: 74px;
+
+                }
+                .line {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+    .team {
+        &_img {
+            width: 89%;
+            margin-left: -47%;
+        }
+    }
+    .book {
+        &_left {
+            margin-top: 20px;
+            &_btn {
+                width: 100%;
+            }
+        }
+        input, select {
+            width: 100%;
+        }
+        &_img {
+            margin-top: 47px;
+        }
+        &_hours {
+            margin-top: 20px;
+        }
+    }
+    .special {
+        &_img {
+            margin-left: -34%;
+            width: 80%;
+        }
+        &_text {
+            width: 50%;
+            margin-top: 125px;
+        }
+    }
+    .menu {
+        &_toggle {
+            margin: 33px 0;
+            padding: 0;
+        }
+        &_all {
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        &_logo {
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        &_nav {
+            &_left, &_right {
+                display: none;
+            }
+            &_menu {
+                display: none;
+                position: absolute;
+                background-color: #fff;
+                height: 400px;
+                width: 100%;
+                padding: 0;
+            }
+            &_close {
+                position: absolute;
+                border: none;
+                background-color: transparent;
+                height: 37px;
+                margin-top: 20px;
+                right: 6%;
+            }
+        }
+        &_link {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            &_1 {
+                margin-top: 40px;
+            }
+            a {
+                color: #E8C300;
+                font-size: 20px;
+                line-height: 40px;
+            }
+        }
+        &_menu {
+            display: block;
+            position: absolute;
+            border: none;
+            background-color: transparent;
+            height: 30px;
+            margin-top: 33px;
+            right: 5%;
+        }
+        &_main {
+            &_btns {
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            &_btn {
+                margin-right: 0;
+                margin-bottom: 20px;
+                width: 50%;
+                &-2 {
+                    width: 50%;
+                }
+            }
+            &_center {
+                h1 {
+                    padding: 0 40px;
+                }
+            }
+        }
+    }
+    .team {
+        &_text {
+            margin-top: 15%;
+            margin-right: 15px;
+        }
+    }
+    .book {
+        overflow: hidden;
+        &_img {
+            display: none;
+        }
+        &_left {
+            margin: 0 5%;
+            width: 90%;
+        }
+        &_hours {
+            width: 300px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .special {
+        &_text {
+            margin-top: 13%;
+        }
+        &_img {
+            margin-left: -45%;
+            width: 88%;
+        }
+    }
+    div.subtitle {
+        font-size: 14px;
+    }
+    div.title {
+        font-size: 34px;
+    }
+    .menu {
+        &_toggle {
+            margin: 28px 0;
+            &_category::after {
+                height: 40px;
+                margin: 0 12px;
+            }
+        }
+        &_dish_price, &_dish_name {
+            font-size: 17px;
+        }
+    }
+    .events_all_corporate  {
+        margin-left: -80px;
+    }
+    .events {
+        &_contacts {
+            width: 360px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .galery {
+        display: flex;
+        flex-wrap: wrap;
+        img {
+            width: 50%;
+        }
+    }
+    .contact {
+        &_form {
+            margin-top: 30px;
+            input {
+                width: 100%;
+                margin-bottom: 10px;
+                height: 50px;
+            }
+            textarea {
+                margin-top: 0;
+            }
+        }
+        &_all {
+            justify-content: center;
+            flex-wrap: wrap;
+            &_address {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .map {
+        iframe {
+            height: 300px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        min-height: 775px;
+        &_main {
+            &_btn-down {
+                display: none;
+            }
+            &_left {
+                display: none;
+            }
+            &_right {
+                width: 100%;
+                margin-top: 100px;
+            }
+            &_soc {
+                display: flex;
+                flex-direction: row;
+            }
+            &_btn, &_btn-2 {
+                width: 74%;
+            }
+            &_center {
+                margin-top: 60px;
+                h1 {
+                    font-size: 52px;
+                }
+            }
+        }
+    }
+    .about {
+        min-height: 450px;
+        &_img {
+            display: none;
+        }
+        &_us {
+            width: 90%;
+            margin-left: 0;
+        }
+    }
+    .team {
+        min-height: 500px;
+        &_img {
+            display: none;
+        }
+        &_text {
+            width: 90%;
+        }
+    }
+    .special {
+        min-height: 540px;
+        display: flex;
+        justify-content: center;
+        &_img {
+            display: none;
+        }
+        &_text {
+            width: 90%;
+            margin: 5% 5% 0;
+        }
+        &_nav {
+            margin-top: 444px;
+        }
+    }
+    .menu {
+        br {
+            display: none;
+        }
+        &_toggle {
+            flex-wrap: wrap;
+            &_category {
+                margin: 5px 15px;
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        div.container {
+            padding: 0 10px;
+        }
+        &_all {
+            padding: 0;
+        }
+        &_dish {
+            margin: 0 10px 20px;
+        }
+    }
+    .contact {
+        &_all {
+            div {
+                
+            }
+            &_tel {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

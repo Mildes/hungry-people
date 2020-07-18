@@ -1,0 +1,57 @@
+.book {
+    min-height: 675px;
+    padding: 100px 0 44px;
+    &_left {
+        width: 580px;
+        float: left;
+        margin-left: 55px;
+        min-height: 350px;
+        margin-top: 62px;
+        input, select {
+            width: 277px;
+            height: 60px;
+            background: #E5E5E5;
+            border-radius: 5px;
+            border: none;
+            padding: 20px;
+            font-weight: normal;
+            font-size: 14px;
+            margin: 5px;
+            color: rgba(51, 51, 51, 0.7);
+        }
+        &_btn {
+            width: 567px;
+            height: 60px;
+            background: #E8C300;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            font-size: 12px;
+            color: #fff;
+            margin: 5px;
+        }
+        
+    }
+    &_img {
+        width: 588px;
+        height: 475px;
+        float: right;
+        margin-top: -60px;
+        margin-right: 50px;
+    }
+    &_hours {
+        display: inline-block;
+        width: 100%;
+        color: rgba(51, 51, 51, 0.5);
+        font-weight: normal;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 105px;
+        span {
+            font-weight: bold;
+        }
+        a {
+            color: rgba(51, 51, 51, 0.5);
+        }
+    }
+}
